@@ -10,6 +10,3 @@ bundled
 coverage
 pkg
 tmp
-/public/packs
-/public/packs-test
-/node_modules

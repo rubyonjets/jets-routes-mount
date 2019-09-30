@@ -5,15 +5,6 @@ gem "jets"
 gem "sinatra"
 gem "grape"
 
-# Include webpacker if you are you are building html pages
-gem "webpacker", git: "https://github.com/tongueroo/webpacker.git", branch: "jets"
-
-# Include mysql2 gem if you are using ActiveRecord, remove next line
-# and config/database.yml file if you are not
-gem "mysql2", "~> 0.5.2"
-
-gem "dynomite"
-
 # development and test groups are not bundled as part of the deployment
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
