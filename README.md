@@ -27,16 +27,16 @@ Deploy it.
     API Gateway Endpoint: https://xbrp9dekhc.execute-api.us-west-2.amazonaws.com/dev/
     $
 
-Test it:
+Test it.
 
     $ curl https://xbrp9dekhc.execute-api.us-west-2.amazonaws.com/dev/sinatra
     SinatraApp homepage
-    $ curl https://xbrp9dekhc.execute-api..com/dev/sinatra/hello
+    $ curl https://xbrp9dekhc.execute-api.us-west-2.amazonaws.com/dev/sinatra/hello
     Hello
-    $ curl https://xbrp9dekhc.execute-api.us-west-2.amaz.com/dev/sinatra/hello2
+    $ curl https://xbrp9dekhc.execute-api.us-west-2.amazonaws.com/dev/sinatra/hello2
     Hello2
-    $ curl https://xbrp9dekhc.execute-api.us-west-2.ama.com/dev/grape
+    $ curl https://xbrp9dekhc.execute-api.us-west-2.amazonaws.com/dev/grape
     GrapeApp home
-    $ curl https://xbrp9dekhc.execute-api.us-wes.com/dev/grape/hello
+    $ curl https://xbrp9dekhc.execute-api.us-west-2.amazonaws.com/dev/grape/hello
     {:hello=>"world"}
     $
