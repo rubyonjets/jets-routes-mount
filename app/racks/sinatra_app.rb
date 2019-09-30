@@ -14,8 +14,6 @@ class SinatraApp < Sinatra::Base
   end
 end
 
-# puts "SinatraApp.respond_to?(:call) #{SinatraApp.respond_to?(:call).inspect}"
-
 if __FILE__ == $0
   SinatraApp.run!
 end
