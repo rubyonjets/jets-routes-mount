@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 gem "jets"
 
+gem "sinatra"
+gem "grape"
+
 # Include webpacker if you are you are building html pages
 gem "webpacker", git: "https://github.com/tongueroo/webpacker.git", branch: "jets"
 
@@ -25,3 +28,4 @@ group :test do
   gem 'launchy'
   gem 'capybara'
 end
+
