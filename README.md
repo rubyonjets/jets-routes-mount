@@ -1,5 +1,7 @@
 # Jets Mount Routes Examples
 
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+
 This project contains [Jets routes mount](https://rubyonjets.com/docs/routing/mount/) examples.  It has an example for:
 
 * [Rack](app/racks/rack_app.rb)
