@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-gem "jets"
+gem "jets", "~> 5.0.0"
+gem "sprockets-jets"
 
 gem "sinatra"
 gem "grape"
@@ -19,4 +20,3 @@ group :test do
   gem 'launchy'
   gem 'capybara'
 end
-
